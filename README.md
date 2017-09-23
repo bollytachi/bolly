@@ -1,2 +1,2 @@
 # lpa2_projet
-Autheur: # BOUTBOUL Michael
+Autheur: BOUTBOUL Michael
