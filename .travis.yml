@@ -4,6 +4,6 @@ rvm:
 deploy:
   provider: heroku
   api_key:
-    secure: "23cf95d7-354b-4054-907c-aac31d74f811"
+    secure: 23cf95d7-354b-4054-907c-aac31d74f811
     on:
-      all_branches: true
+      app: projet-lpa2
