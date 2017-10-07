@@ -4,6 +4,7 @@ rvm:
 deploy:
   provider: heroku
   api_key:
-    secure: 23cf95d7-354b-4054-907c-aac31d74f811
-    on:
-      app: projet-lpa2
+    secure: DPnQxXhTML0Tq+QQpl/7rJFumU3dulPWmB98AFjr08w2t6PwwZiRdjWKIbEbW3TfssI1bOUCK5nWZS6N992X7rfbluFsfk9lUNSIPo61bFF1thiU55pvSdXszX1izZX290LQAQfEWk51egFv/4lV3a+IswqLt8VUONY8D6YkHN8vCHeyHDwYXClAytS8WPgs8eOY8bNtaN/49Uf9/92WUjdUfcQ8AquSohflo/CyfLQ/rZn4ZQblsntN/O4BwTG/1OgvOb5/6AT9PZXin/kL14O2J1uoiJ4uH2y37lW6J9WhHw7F/cidupQ9ObG+iZWO5MuU6gQ+gqBQf1f5srt1BgiDJUB6zlFWuveXmTK6GX6BXD9z7azx8m0d9UIuyJuRYFVBOoCvNcnNnkYkzdGsjFnaR+Q3fu+aTCYZgnPIfAGRGldmpbNI8hyMZhCsXq/gkPego3rhsNq24VF20Mw9vNglEE2AgSPjTKMA++JHSxRtFg4XnnlRucyKKuAx3nNn6C5zEwQMDVUbLE0tFUTPb5wfJNw98tAduWyazfv/9eJEle/lcvF99d2xiLA7h1/L88mciT+3lCAQ+RSsYKDAGDSh2m193krX59aachXGhsGS6N51QW5km2jXHVxrNbG2XZ8vQ204bHF+0QzamEnN01SHrp6SRH+a2WLOic9XDxU=
+  app: lpa2projet
+  on:
+    repo: Cladlink/lpa2_projet
