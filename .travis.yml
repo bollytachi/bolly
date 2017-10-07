@@ -4,4 +4,6 @@ rvm:
 deploy:
   provider: heroku
   api_key:
-    secure: KVEJhVzytus80mGGhYnAX0rH/FgF/lRk/0NDdLmx8lTU3PumrBXcU60aFDp9I/fFA9SOm76/nFHr9w/rRkWuVoTzBcDFqcLs3zjlNZhxku4ch44ImxoUfnXDurkxlACVZIABwHLsMXJS+xSNs3f3Ail5olCfpMk+WhgKcY/0Hn2Zv6sVJFSqlzBqcCOak1KRUzbgnquMqZU/RC9dpg9QLB2XzB4YC8FcIGJ347jAh5FBH7adBwvbh1qsH0Y5Js/v92DJ4sR0g6E92RSBLrxggdAP1idirp2hpnpKRLZn8ANScupJMEedV6/QCqPxRo2dOMuvXdSAF3sX21ZZkHNwrYlPJZDdK5dlLfFK/0IcDtn2nfalRtmb7flNHZagtdMhQeERP2Ff4ieVkUa+8ehNDsQU9skPay9HYXGxkd4E793BczHEhKErEvoAbUkx0AxFKj9y0mOBiaDjeers8qbUmDyUz9bMot7bQH2lLd74/NPy1XBbk6KTRcbUsPHc4WGzNF0oTUywFMu1dS6hEe2obbXn6pUQUQWqH5K1W4pOVFpmurGY8l353TkIw/2PLGMPfSt1tzj73m007ULZNLJ/cJAR6GtrFfkyDW9rVefSKQMUYsoHuLNZbqO6AdQxoFtDr3xbGHtVMbk8OfI9tJ/mJjuUwM5bmyp7b/tfQcpV6e0=
+    secure: "23cf95d7-354b-4054-907c-aac31d74f811"
+    on:
+      all_branches: true
