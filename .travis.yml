@@ -1,6 +1,6 @@
 language: ruby
 rvm:
-- 2.3.5
+- 2.3.4
 deploy:
   provider: heroku
   api_key:
@@ -8,3 +8,4 @@ deploy:
   app: lpa2projet
   on:
     repo: Cladlink/lpa2_projet
+  run: "rake db:migrate"

@@ -11,12 +11,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171012173633) do
+ActiveRecord::Schema.define(version: 20171014082514) do
 
   create_table "students", force: true do |t|
     t.string   "name"
     t.string   "surname"
     t.date     "birthday"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "towns", force: true do |t|
+    t.string   "name"
+    t.float    "latitude"
+    t.float    "longitude"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
