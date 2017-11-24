@@ -13,7 +13,7 @@ class TownsController < ApplicationController
     ForecastIO.configure do |c|
     c.api_key = '004434328398a816490cf8e9aefb3b4b'
     end
-    forecast = ForecastIO.forecast(@town.latitude, @town.longitude)
+    forecast = ForecastIO.forecast(@town.latitude, @town.longitude).currently
     render locals: { resource:  forecast}
   end
 
