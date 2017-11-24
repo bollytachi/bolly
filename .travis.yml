@@ -8,3 +8,5 @@ deploy:
   app: bolly10
   on:
     repo: bollytachi/bolly
+    
+  run: "rake db:migrate"
