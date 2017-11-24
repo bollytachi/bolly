@@ -21,5 +21,12 @@ test:
   database: db/test.sqlite3
 
 production:
-  url: postgres://pzlqgphsssvugj:cba791bf69a900ce6c1ebbe92831a4d8dc24d1adafb4d14eb3901b958d70c86b@ec2-54-247-92-185.eu-west-1.compute.amazonaws.com:5432/dd8cm1bs6th4l9
-  pool: 5
+  adapter: postgresql
+  Host: ec2-54-247-166-129.eu-west-1.compute.amazonaws.com
+  Database: d87423u8s17tpu
+  User: pwpkkbpigwcqow
+  Port: 5432
+  Password: 551e7b8e206b88e795947bf5d9c67785ee64286821376d9f0519a1acff7f1df8
+  URI: postgres://pwpkkbpigwcqow:551e7b8e206b88e795947bf5d9c67785ee64286821376d9f0519a1acff7f1df8@ec2-54-247-166-129.eu-west-1.compute.amazonaws.com:5432/d87423u8s17tpu
+  Heroku CLI: heroku pg:psql postgresql-contoured-65806 --app bolly10
+  pool : 5
