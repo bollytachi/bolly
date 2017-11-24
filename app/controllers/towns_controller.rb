@@ -10,6 +10,9 @@ class TownsController < ApplicationController
   # GET /towns/1
   # GET /towns/1.json
   def show
+    ForecastIO.configure do |c|
+    c.api_key = '004434328398a816490cf8e9aefb3b4b'
+    end
     forecast = ForecastIO.forecast(@town.latitude, @town.longitude)
     render locals: { resource:  forecast}
   end

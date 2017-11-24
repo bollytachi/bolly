@@ -1,2 +1,2 @@
-# lpa2_projet
-Auteur: BOUTBOUL Michael
+# LPA2_PROJET
+Auteur: Bolly DOUNLA TACHI
