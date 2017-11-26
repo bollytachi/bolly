@@ -22,11 +22,11 @@ test:
 
 production:
   adapter: postgresql
-  Host: ec2-54-247-166-129.eu-west-1.compute.amazonaws.com
-  Database: d87423u8s17tpu
-  User: pwpkkbpigwcqow
+  Host: ec2-54-247-119-245.eu-west-1.compute.amazonaws.com
+  Database: dfoaqcs4vs0lcm
+  User: mfrhlcodgdyqeh
   Port: 5432
-  Password: 551e7b8e206b88e795947bf5d9c67785ee64286821376d9f0519a1acff7f1df8
-  URI: postgres://pwpkkbpigwcqow:551e7b8e206b88e795947bf5d9c67785ee64286821376d9f0519a1acff7f1df8@ec2-54-247-166-129.eu-west-1.compute.amazonaws.com:5432/d87423u8s17tpu
-  Heroku CLI: heroku pg:psql postgresql-contoured-65806 --app bolly10
+  Password: e383993d786e69b475656835e795f052ec488faf8d3b6a9057c7a0c33a80913d
+  URI: postgres://mfrhlcodgdyqeh:e383993d786e69b475656835e795f052ec488faf8d3b6a9057c7a0c33a80913d@ec2-54-247-119-245.eu-west-1.compute.amazonaws.com:5432/dfoaqcs4vs0lcm
+  Heroku CLI: heroku pg:psql postgresql-contoured-87564 --app bollyapp
   pool : 5
