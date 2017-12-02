@@ -5,7 +5,7 @@ one:
   latitude: 1.5
   longitude: 1.5
 
-two:
-  name: Washington
+inexisting:
+  name: inexistingtown
   latitude: 1.5
   longitude: 1.5

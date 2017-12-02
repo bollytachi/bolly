@@ -13,16 +13,16 @@
 
 ActiveRecord::Schema.define(version: 20171014082514) do
 
-  create_table "students", force: true do |t|
-    t.string   "name"
-    t.string   "surname"
+  create_table "students", force: :cascade do |t|
+    t.string   "name",       limit: 255
+    t.string   "surname",    limit: 255
     t.date     "birthday"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  create_table "towns", force: true do |t|
-    t.string   "name"
+  create_table "towns", force: :cascade do |t|
+    t.string   "name",       limit: 255
     t.float    "latitude"
     t.float    "longitude"
     t.datetime "created_at"
