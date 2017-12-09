@@ -1,2 +1,2 @@
 # LPA2_PROJET
-Auteur: Bolly DOUNLA TACHI gh
+Auteur: Bolly DOUNLA TACHI
